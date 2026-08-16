@@ -311,20 +311,15 @@
   },
   {
     "id": 26,
-    "answer": "きつねうどん",
+    "answer": "うどん",
     "letters": [
-      "き",
-      "つ",
-      "ね",
-      "う",
-      "ど",
       "ん",
-      "そ",
-      "ば"
+      "う",
+      "ど"
     ],
-    "difficulty": "hard",
-    "image": "images/kitsune.png",
-    "label": "きつねうどん"
+    "difficulty": "easy",
+    "image": "images/udon.png",
+    "label": "うどん"
   },
   {
     "id": 27,
