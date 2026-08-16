@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#7EC8E3">
+  <title>もじならべ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- スタート / 難易度選択 -->
+    <section id="screen-start" class="screen is-active" aria-label="スタート画面">
+      <div class="start-bg" aria-hidden="true"></div>
+      <header class="brand">
+        <p class="brand-mark">もじならべ</p>
+        <p class="brand-sub">イラストをみて もじを ならべよう</p>
+      </header>
+      <div class="stamp-banner" id="start-stamp-banner">
+        <span class="stamp-icon" aria-hidden="true">⭐</span>
+        <span id="start-stamp-text">きょうのスタンプ 0 / 10</span>
+      </div>
+      <p id="goal-message" class="goal-message is-hidden">🎉 きょうのノルマ達成！ 🎉</p>
+      <div class="difficulty-panel">
+        <p class="panel-title">むずかしさを えらんでね</p>
+        <button type="button" class="diff-btn diff-easy" data-difficulty="easy">かんたん</button>
+        <button type="button" class="diff-btn diff-normal" data-difficulty="normal">ふつう</button>
+        <button type="button" class="diff-btn diff-hard" data-difficulty="hard">むずかしい</button>
+      </div>
+    </section>
+
+    <!-- ゲーム画面 -->
+    <section id="screen-game" class="screen" aria-label="ゲーム画面" hidden>
+      <header class="game-top">
+        <button type="button" id="btn-back" class="btn-back" aria-label="もどる">←</button>
+        <div class="stamp-banner stamp-banner--compact" id="game-stamp-banner">
+          <span class="stamp-icon" aria-hidden="true">⭐</span>
+          <span id="game-stamp-text">きょうのスタンプ 0 / 10</span>
+        </div>
+      </header>
+
+      <div class="illustration-wrap">
+        <img id="question-image" class="illustration" src="" alt="もんだいのイラスト">
+      </div>
+
+      <div id="answer-slots" class="answer-slots" aria-label="こたえのわく"></div>
+
+      <div id="letter-tray" class="letter-tray" aria-label="もじ"></div>
+
+      <button type="button" id="btn-submit" class="btn-submit" disabled>けってい！！！</button>
+    </section>
+
+    <!-- 結果画面 -->
+    <section id="screen-result" class="screen" aria-label="けっか画面" hidden>
+      <div id="confetti" class="confetti" aria-hidden="true"></div>
+      <div class="result-card" id="result-card">
+        <p id="result-title" class="result-title">すごいね！</p>
+        <div id="result-stamp" class="result-stamp is-hidden" aria-hidden="true">⭐</div>
+        <p id="result-answer" class="result-answer is-hidden"></p>
+        <p id="result-message" class="result-message"></p>
+        <div class="stamp-banner stamp-banner--compact" id="result-stamp-banner">
+          <span class="stamp-icon" aria-hidden="true">⭐</span>
+          <span id="result-stamp-text">きょうのスタンプ 0 / 10</span>
+        </div>
+        <p id="result-goal" class="goal-message is-hidden">🎉 きょうのノルマ達成！ 🎉</p>
+        <div class="result-actions">
+          <button type="button" id="btn-next" class="btn-primary">つぎのもんだい</button>
+          <button type="button" id="btn-home" class="btn-secondary">むずかしさを かえる</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/audio.js" defer></script>
+  <script src="js/stamps.js" defer></script>
+  <script src="js/game.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

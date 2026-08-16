@@ -1,0 +1,375 @@
+[
+  {
+    "id": 1,
+    "answer": "りんご",
+    "letters": [
+      "ご",
+      "り",
+      "ん"
+    ],
+    "difficulty": "easy",
+    "image": "images/ringo.png",
+    "label": "りんご"
+  },
+  {
+    "id": 2,
+    "answer": "ばなな",
+    "letters": [
+      "な",
+      "ば",
+      "な"
+    ],
+    "difficulty": "easy",
+    "image": "images/banana.png",
+    "label": "ばなな"
+  },
+  {
+    "id": 3,
+    "answer": "ねこ",
+    "letters": [
+      "こ",
+      "ね"
+    ],
+    "difficulty": "easy",
+    "image": "images/neko.png",
+    "label": "ねこ"
+  },
+  {
+    "id": 4,
+    "answer": "くるま",
+    "letters": [
+      "る",
+      "ま",
+      "く"
+    ],
+    "difficulty": "easy",
+    "image": "images/kuruma.png",
+    "label": "くるま"
+  },
+  {
+    "id": 5,
+    "answer": "いぬ",
+    "letters": [
+      "ぬ",
+      "い"
+    ],
+    "difficulty": "easy",
+    "image": "images/inu.png",
+    "label": "いぬ"
+  },
+  {
+    "id": 6,
+    "answer": "いちご",
+    "letters": [
+      "ご",
+      "い",
+      "ち"
+    ],
+    "difficulty": "easy",
+    "image": "images/ichigo.png",
+    "label": "いちご"
+  },
+  {
+    "id": 7,
+    "answer": "みかん",
+    "letters": [
+      "か",
+      "み",
+      "ん"
+    ],
+    "difficulty": "easy",
+    "image": "images/mikan.png",
+    "label": "みかん"
+  },
+  {
+    "id": 8,
+    "answer": "うさぎ",
+    "letters": [
+      "ぎ",
+      "う",
+      "さ"
+    ],
+    "difficulty": "easy",
+    "image": "images/usagi.png",
+    "label": "うさぎ"
+  },
+  {
+    "id": 9,
+    "answer": "はな",
+    "letters": [
+      "な",
+      "は"
+    ],
+    "difficulty": "easy",
+    "image": "images/hana.png",
+    "label": "はな"
+  },
+  {
+    "id": 10,
+    "answer": "たまご",
+    "letters": [
+      "ご",
+      "た",
+      "ま"
+    ],
+    "difficulty": "easy",
+    "image": "images/tamago.png",
+    "label": "たまご"
+  },
+  {
+    "id": 11,
+    "answer": "おにぎり",
+    "letters": [
+      "り",
+      "お",
+      "に",
+      "ぎ"
+    ],
+    "difficulty": "normal",
+    "image": "images/onigiri.png",
+    "label": "おにぎり"
+  },
+  {
+    "id": 12,
+    "answer": "ひこうき",
+    "letters": [
+      "き",
+      "ひ",
+      "こ",
+      "う"
+    ],
+    "difficulty": "normal",
+    "image": "images/hikouki.png",
+    "label": "ひこうき"
+  },
+  {
+    "id": 13,
+    "answer": "でんしゃ",
+    "letters": [
+      "ゃ",
+      "で",
+      "ん",
+      "し"
+    ],
+    "difficulty": "normal",
+    "image": "images/densha.png",
+    "label": "でんしゃ"
+  },
+  {
+    "id": 14,
+    "answer": "らいおん",
+    "letters": [
+      "ん",
+      "ら",
+      "い",
+      "お"
+    ],
+    "difficulty": "normal",
+    "image": "images/raion.png",
+    "label": "らいおん"
+  },
+  {
+    "id": 15,
+    "answer": "テレビ",
+    "letters": [
+      "ビ",
+      "テ",
+      "レ"
+    ],
+    "difficulty": "normal",
+    "image": "images/terebi.png",
+    "label": "テレビ"
+  },
+  {
+    "id": 16,
+    "answer": "バナナ",
+    "letters": [
+      "ナ",
+      "バ",
+      "ナ"
+    ],
+    "difficulty": "normal",
+    "image": "images/banana-kata.png",
+    "label": "バナナ"
+  },
+  {
+    "id": 17,
+    "answer": "カメラ",
+    "letters": [
+      "ラ",
+      "カ",
+      "メ"
+    ],
+    "difficulty": "normal",
+    "image": "images/camera.png",
+    "label": "カメラ"
+  },
+  {
+    "id": 18,
+    "answer": "ロケット",
+    "letters": [
+      "ケ",
+      "ロ",
+      "ッ",
+      "ト"
+    ],
+    "difficulty": "normal",
+    "image": "images/rocket.png",
+    "label": "ロケット"
+  },
+  {
+    "id": 19,
+    "answer": "アイス",
+    "letters": [
+      "ス",
+      "ア",
+      "イ"
+    ],
+    "difficulty": "normal",
+    "image": "images/aisu.png",
+    "label": "アイス"
+  },
+  {
+    "id": 20,
+    "answer": "サッカー",
+    "letters": [
+      "カ",
+      "サ",
+      "ッ",
+      "ー"
+    ],
+    "difficulty": "normal",
+    "image": "images/soccer.png",
+    "label": "サッカー"
+  },
+  {
+    "id": 21,
+    "answer": "パイナップル",
+    "letters": [
+      "パ",
+      "イ",
+      "ナ",
+      "ッ",
+      "プ",
+      "ル",
+      "ア"
+    ],
+    "difficulty": "hard",
+    "image": "images/pineapple.png",
+    "label": "パイナップル"
+  },
+  {
+    "id": 22,
+    "answer": "サンドイッチ",
+    "letters": [
+      "サ",
+      "ン",
+      "ド",
+      "イ",
+      "ッ",
+      "チ",
+      "カ",
+      "ラ"
+    ],
+    "difficulty": "hard",
+    "image": "images/sandwich.png",
+    "label": "サンドイッチ"
+  },
+  {
+    "id": 23,
+    "answer": "チョコレート",
+    "letters": [
+      "チ",
+      "ョ",
+      "コ",
+      "レ",
+      "ー",
+      "ト",
+      "ア",
+      "メ"
+    ],
+    "difficulty": "hard",
+    "image": "images/choco.png",
+    "label": "チョコレート"
+  },
+  {
+    "id": 24,
+    "answer": "ヘリコプター",
+    "letters": [
+      "ヘ",
+      "リ",
+      "コ",
+      "プ",
+      "タ",
+      "ー",
+      "ボ",
+      "ト"
+    ],
+    "difficulty": "hard",
+    "image": "images/helicopter.png",
+    "label": "ヘリコプター"
+  },
+  {
+    "id": 26,
+    "answer": "きつねうどん",
+    "letters": [
+      "き",
+      "つ",
+      "ね",
+      "う",
+      "ど",
+      "ん",
+      "そ",
+      "ば"
+    ],
+    "difficulty": "hard",
+    "image": "images/kitsune.png",
+    "label": "きつねうどん"
+  },
+  {
+    "id": 27,
+    "answer": "コンピュータ",
+    "letters": [
+      "コ",
+      "ン",
+      "ピ",
+      "ュ",
+      "ー",
+      "タ",
+      "メ",
+      "モ"
+    ],
+    "difficulty": "hard",
+    "image": "images/computer.png",
+    "label": "コンピュータ"
+  },
+  {
+    "id": 28,
+    "answer": "ぞうさん",
+    "letters": [
+      "ぞ",
+      "う",
+      "さ",
+      "ん",
+      "ね",
+      "こ"
+    ],
+    "difficulty": "hard",
+    "image": "images/zou.png",
+    "label": "ぞうさん"
+  },
+  {
+    "id": 29,
+    "answer": "せんぷうき",
+    "letters": [
+      "き",
+      "せ",
+      "ん",
+      "ぷ",
+      "う"
+    ],
+    "difficulty": "normal",
+    "image": "images/senpuuki.jpg",
+    "label": "せんぷうき"
+  }
+]
