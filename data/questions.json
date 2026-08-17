@@ -323,20 +323,18 @@
   },
   {
     "id": 27,
-    "answer": "コンピュータ",
+    "answer": "パソコン",
     "letters": [
+      "パ",
+      "ソ",
       "コ",
       "ン",
-      "ピ",
-      "ュ",
-      "ー",
-      "タ",
       "メ",
       "モ"
     ],
     "difficulty": "hard",
     "image": "images/computer.png",
-    "label": "コンピュータ"
+    "label": "パソコン"
   },
   {
     "id": 28,
