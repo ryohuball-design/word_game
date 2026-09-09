@@ -58,7 +58,7 @@ const Game = (() => {
     img.onload = () => {
       img.classList.remove("is-missing");
     };
-    img.src = `${src}?v=png1`;
+    img.src = `${src}?v=safe1`;
   }
 
   function findNextEmptySlot(from = 0) {
